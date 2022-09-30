@@ -1,8 +1,8 @@
 function Footer (){
     return(
-    <div class="footer">
+    <footer className="footer">
         <p>© 2022 Javier García</p>
-    </div>
+    </footer>
 )};
 
 export default Footer;
