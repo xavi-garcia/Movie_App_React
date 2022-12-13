@@ -76,21 +76,39 @@ button.active {
   margin-left: 1%;
 }
 
-/* @media screen and (min-width: 360px) {
+
+@media (min-width: 300px) and (max-width: 575px) {
   #logo {
     font-family: "budmo";
-    font-size: 1rem;
+    font-size: 0.8rem;
+    height: 0;
+    margin: auto;
+  }
+}
+@media (min-width: 576px) and (max-width: 690px) {
+  #logo {
+    font-family: "budmo";
+    font-size: 1.5rem;
     height: 0;
     margin: auto;
   }
 }
 
-@media screen and (min-width: 280px) {
-
+@media (min-width: 280px) and (max-width: 653px) {
   #logo {
     font-family: "budmo";
     font-size: 1rem;
     height: 0;
     margin: auto;
   }
-} */
+
+  .filter-container {
+    margin-bottom: 2rem;
+    padding:10px;
+    width: 100%;
+  }
+
+  body {
+    width: 100%;
+  }
+}
